@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ButtonAlertApp",
-    "slug": "ButtonAlertApp",
+    "slug": "buttonapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.foxx2033.ButtonAlertApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "376d87a3-f171-40a5-81d4-edeb2c3602f8"
+      }
+    },
+    "owner": "foxx2033"
   }
 }
